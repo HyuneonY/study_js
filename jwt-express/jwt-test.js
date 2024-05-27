@@ -6,5 +6,5 @@ console.log(token);
 const decodedValue = jwt.decode(token);
 console.log(decodedValue);
 
-const decodedValueByVerify = jwt.verify(token, 'dqwe');
+const decodedValueByVerify = jwt.verify(token, 'mysecretkey');
 console.log(decodedValueByVerify);
